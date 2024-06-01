@@ -22,7 +22,7 @@ try:
     book.save(buffer)
     buffer.seek(0)
 except:
-    st.subheader(":red[Please Select Files]")
+    st.subheader(":red[Please Upload both Files]")
 
 if book!='':
     st.title("Download Excel File")
