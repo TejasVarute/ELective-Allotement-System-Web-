@@ -1,6 +1,5 @@
 import streamlit as st
 from items import Main_Process
-import openpyxl as op
 import io
 
 file=''
@@ -9,10 +8,8 @@ st.set_page_config(
     page_title="Elective Allotement System",
 )
 st.title("Open Elective Allotement System")
-st.sidebar.success('''Provide proper Information About
-                   :red[Please read Instruction 
-before to perform]''')
-# File upload
+st.sidebar.success('''Provide proper Information About :red[Please read Instruction before to perform and see the samples for tables]''')
+
 book=''
 try:
     file1 = st.file_uploader("Upload Student Choice File", type=["xlsx"])
@@ -22,7 +19,7 @@ try:
     book.save(buffer)
     buffer.seek(0)
 except:
-    st.subheader(":red[Please Upload both Files]")
+    st.subheader(":red[Please Select Files]")
 
 if book!='':
     st.title("Download Excel File")
