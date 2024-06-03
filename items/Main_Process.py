@@ -65,4 +65,3 @@ def allocationprocess(data_file, sub_file):
         for i in range(len(temp_prn)):
                 ws.append([temp_prn[i], temp_div[i], temp_roll[i], temp_branch[i], temp_name[i], temp_cgpa[i], temp_sub[i]])
     return wb
-#allocationprocess(r"D:\PERSONAL\Programs\Project\Subject allotment\Sample My\My GForm Sample\Student Response.xlsx",r"D:\PERSONAL\Programs\Project\Subject allotment\Sample My\My GForm Sample\Subject with Branch.xlsx")
