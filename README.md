@@ -1,6 +1,8 @@
 # Open-elective-allotment-system
 This is simple project using data analysis to perform open elective subject allocation in engineering colleges. 
 
+Website : elective.streamlit.app
+
 What is open elective subject in engineering ?
 -> Open elective subjects are subjects that students from other branches of engineering can choose to study in addition to their core subjects. 
    This allows students to broaden their knowledge and skills, and to explore areas of engineering that they are interested in.
